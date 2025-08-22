@@ -1,0 +1,5 @@
+Fold 1 - Tempo de treino: 998.63 segundos
+Fold 2 - Tempo de treino: 1607.66 segundos
+Fold 3 - Tempo de treino: 1614.24 segundos
+Fold 4 - Tempo de treino: 1616.37 segundos
+Fold 5 - Tempo de treino: 1630.17 segundos
