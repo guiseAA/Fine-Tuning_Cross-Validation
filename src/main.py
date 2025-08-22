@@ -4,13 +4,13 @@ from trainer import train_model
 from analyze_folds import aggregate_fold_metrics, select_best_model
 
 
-# Cargar dataset (por ejemplo, CSV)
+# dataset
 dataset = pd.read_csv('data/dataset_Training_.csv')
 
-# Entrenar el modelo con validación cruzada
+# Treinar o Modelo
 train_model(dataset)
 
-# 3. Agregar métricas e selecionar o melhor modelo
+# Métricas
 results_dir = "/content/drive/MyDrive/code_affinity/results"
 num_folds = 5
 metric_to_use = "eval_mse"       # ou "r2", "accuracy"
